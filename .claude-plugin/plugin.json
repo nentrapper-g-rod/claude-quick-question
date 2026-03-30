@@ -1,0 +1,11 @@
+{
+  "name": "quick-question",
+  "displayName": "Quick Question (/q)",
+  "description": "Ask Claude a quick question without planning, file edits, or tool use. Just a direct answer.",
+  "version": "1.0.0",
+  "author": "joshuag",
+  "license": "MIT",
+  "keywords": ["question", "quick", "answer", "no-tools", "concise"],
+  "commands": ["commands/q.md"],
+  "homepage": "https://github.com/joshuag/claude-quick-question"
+}
