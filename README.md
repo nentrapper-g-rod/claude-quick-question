@@ -38,6 +38,10 @@ mkdir -p .claude/commands
 cp .claude-plugin/commands/q.md .claude/commands/q.md
 ```
 
+## This Should Be Built In
+
+Honestly, this shouldn't need to be a plugin. A "just answer me" mode should be a default part of Claude Code. Every coding assistant should know the difference between "help me refactor this module" and "what does `errno 13` mean?" One needs tools, planning, and file access. The other just needs a sentence. Until that's a first-class feature, `/q` fills the gap.
+
 ## How It Works
 
 It's just a prompt template. The `/q` command prepends an instruction telling Claude to answer directly, then passes along your question. That's it — no magic, no dependencies, no config.
